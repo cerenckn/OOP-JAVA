@@ -7,12 +7,14 @@ public class AnimalTest {
 		a1.walk();
 		
 		
-		Animal a2=new Spider(8);
+		Spider a2=new Animal(8);
+		System.out.println(a2.getLegs()+" ayağa sahip,örümcek");
 		a2.eat();
 		Cat a3=new Cat(4,"Duman");
 		a3.eat();
 		a3.play();
 		System.out.println(a3.getName());
+		
 
 
 		
