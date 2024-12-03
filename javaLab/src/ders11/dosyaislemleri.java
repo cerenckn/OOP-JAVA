@@ -17,7 +17,7 @@ public class dosyaislemleri {
 		}
 		ArrayList <String> a =new ArrayList<>();
 		a.add("Ceren Çeken");
-		a.add("21");
+		a.add("20");
 		String q="Merhaba";
 		FileWriter fWriter=new FileWriter(f,true);// false işlemi yazma işlemini yaptırıyor,okutmuyor, true yaparsak okuma da yapar
 		BufferedWriter bWriter=new BufferedWriter(fWriter);

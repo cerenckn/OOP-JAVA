@@ -16,7 +16,7 @@ public class uygulama {
 		bWriter.write("Ibrahim;Ceken\n");
 		bWriter.write("Mustafa;Ceken\n");
 		bWriter.write("Gizem;Ozden\n");
-		bWriter.close();
+		bWriter.close();//bunu kapatmazsak while ın içine grirmiyor
 		
 		FileReader fReader=new FileReader(f);
 		BufferedReader bReader=new BufferedReader(fReader);
